@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e491669-4a83-4577-90cd-57b0fe4b5f59" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/org/example/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/org/example/EurekaServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-module/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-module/src/main/java/org/example/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-module/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-module/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-module/target/classes/org/example/UserApplication.class" afterDir="false" />
+    <list default="true" id="5e491669-4a83-4577-90cd-57b0fe4b5f59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/org/example/EurekaServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-module/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-module/target/classes/org/example/UserApplication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,8 +117,16 @@
       <workItem from="1576742655814" duration="2532000" />
       <workItem from="1576745303619" duration="147000" />
       <workItem from="1576745564694" duration="4096000" />
-      <workItem from="1576807117444" duration="1045000" />
+      <workItem from="1576807117444" duration="2026000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1576808179033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576808179033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,10 +137,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="0" key="CommitChangelistDialog2" timestamp="1576808175752">
+    <state x="174" y="0" key="CommitChangelistDialog2" timestamp="1576809753380">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="174" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576808175752" />
+    <state x="174" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576809753380" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1576807898550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -155,22 +149,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="508" y="278" width="373" height="172" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1576749627385" />
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1576749664303">
+    <state x="321" y="260" key="Github.ShareDialog" timestamp="1576809405815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576749664303" />
-    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1576749664303">
+    <state x="321" y="260" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1576809405815" />
+    <state width="1323" height="151" key="GridCell.Tab.0.bottom" timestamp="1576809549462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576749664303" />
-    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1576749664303">
+    <state width="1323" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576809549462" />
+    <state width="1323" height="151" key="GridCell.Tab.0.center" timestamp="1576809549462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576749664303" />
-    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1576749664303">
+    <state width="1323" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576809549462" />
+    <state width="1323" height="151" key="GridCell.Tab.0.left" timestamp="1576809549461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576749664303" />
+    <state width="1323" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576809549461" />
+    <state width="1323" height="151" key="GridCell.Tab.0.right" timestamp="1576809549462">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576809549462" />
     <state width="1323" height="211" key="GridCell.Tab.1.bottom" timestamp="1576749664304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
