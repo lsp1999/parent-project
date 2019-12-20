@@ -1,0 +1,37 @@
+# 本地服务端口
+server:
+  port: 8002
+
+spring:
+  # 服务名称
+  application:
+    name: user-module
+  # 本地服务地址
+  cloud:
+    inetutils:
+      preferred-networks: 10.7.254.104
+  # 设置编码
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+# eureka服务注册中心
+eureka:
+  client:
+    serviceUrl:
+      # 地址
+      defaultZone: http://10.7.254.104:8001/eureka/
+  instance:
+    # 显示ip
+    prefer-ip-address: true
+    # 别名
+    instance-id: user-module
+
+# 配置服务信息
+info:
+  name: user-module
+  url: http://${spring.cloud.inetutils.preferred-networks}:${server.port}
+  artifactId: $project.artifactId$
+  version: $project.version$

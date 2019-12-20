@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e491669-4a83-4577-90cd-57b0fe4b5f59" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/org/example/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/org/example/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-module/src/main/java/org/example/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-module/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-module/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-module/target/classes/org/example/UserApplication.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Code\springcloud\cloudDemo\parent-project\parent-project\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Tool\maven\apache-maven-3.6.0\MavenResp" />
+        <option name="mavenHome" value="D:/Tool/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Tool\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VC2FoBJ8iqKNSkksuMJ3cUZNCB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e491669-4a83-4577-90cd-57b0fe4b5f59" name="Default Changelist" comment="" />
+      <created>1576742654231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576742654231</updated>
+      <workItem from="1576742655814" duration="2532000" />
+      <workItem from="1576745303619" duration="147000" />
+      <workItem from="1576745564694" duration="4096000" />
+      <workItem from="1576807117444" duration="1045000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="0" key="CommitChangelistDialog2" timestamp="1576808143060">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="174" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576808143060" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1576807898550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576807898550" />
+    <state x="508" y="278" width="373" height="172" key="Github.CreateGistDialog" timestamp="1576749627385">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="508" y="278" width="373" height="172" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1576749627385" />
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1576749664303">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576749664303" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1576749664303">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576749664303" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1576749664303">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576749664303" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1576749664303">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576749664303" />
+    <state width="1323" height="211" key="GridCell.Tab.1.bottom" timestamp="1576749664304">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576749664304" />
+    <state width="1323" height="211" key="GridCell.Tab.1.center" timestamp="1576749664304">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1576749664304" />
+    <state width="1323" height="211" key="GridCell.Tab.1.left" timestamp="1576749664303">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1576749664303" />
+    <state width="1323" height="211" key="GridCell.Tab.1.right" timestamp="1576749664304">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576749664304" />
+    <state width="1323" height="211" key="GridCell.Tab.2.bottom" timestamp="1576749664304">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576749664304" />
+    <state width="1323" height="211" key="GridCell.Tab.2.center" timestamp="1576749664304">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1576749664304" />
+    <state width="1323" height="211" key="GridCell.Tab.2.left" timestamp="1576749664304">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1576749664304" />
+    <state width="1323" height="211" key="GridCell.Tab.2.right" timestamp="1576749664304">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1576749664304" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1576749616803">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576749616803" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1576807117988">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576807117988" />
+    <state x="26" y="135" key="new project wizard" timestamp="1576746274679">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="26" y="135" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1576746274679" />
+  </component>
+</project>
