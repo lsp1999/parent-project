@@ -1,0 +1,32 @@
+# 本地服务端口
+server:
+  port: 9527
+
+spring:
+  # 服务名称
+  application:
+    name: $project.artifactId$
+  # 本地服务地址
+  cloud:
+    inetutils:
+      preferred-networks: 10.7.254.104
+
+# eureka服务注册中心
+eureka:
+  client:
+    serviceUrl:
+      # 地址
+      defaultZone: http://10.7.254.104:8001/eureka/
+  instance:
+    # 显示ip
+    prefer-ip-address: true
+    # 别名
+    instance-id: $project.artifactId$
+
+# 配置服务信息
+info:
+  name: zuul-gateway
+  url: http://${spring.cloud.inetutils.preferred-networks}:${server.port}
+  # $变量名$(该使用方式需依赖父项目的maven-resources-plugin插件)
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
