@@ -5,7 +5,7 @@ server:
 spring:
   # 服务名称
   application:
-    name: user-module
+    name: $project.artifactId$
   # 本地服务地址
   cloud:
     inetutils:
@@ -27,12 +27,12 @@ eureka:
     # 显示ip
     prefer-ip-address: true
     # 别名
-    instance-id: user-module
+    instance-id: $project.artifactId$
 
 # 配置服务信息
 info:
   name: user-module
   url: http://${spring.cloud.inetutils.preferred-networks}:${server.port}
   # $变量名$(该使用方式需依赖父项目的maven-resources-plugin插件)
-  artifactId: $project.artifactId$
-  version: $project.version$
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

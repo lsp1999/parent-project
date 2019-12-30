@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="user-module" />
+        <module name="redis-module" />
         <module name="eureka-server" />
+        <module name="zuul-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,9 +18,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server" options="" />
       <module name="parent-project" options="-parameters" />
-      <module name="user-module" options="-parameters" />
+      <module name="user-module" options="" />
+      <module name="zuul-gateway" options="" />
     </option>
   </component>
 </project>

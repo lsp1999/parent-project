@@ -7,14 +7,9 @@
     <modules>
         <module>eureka-server</module>
         <module>user-module</module>
+        <module>zuul-gateway</module>
+        <module>redis-module</module>
     </modules>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.2.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
 
     <groupId>org.example</groupId>
     <artifactId>parent-project</artifactId>
@@ -27,6 +22,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <swagger2.version>2.7.0</swagger2.version>
         <shiro.version>1.4.1</shiro.version>
+        <jedis.version>3.2.0</jedis.version>
     </properties>
 
     <dependencyManagement>
@@ -38,7 +34,24 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <dependency>
+                <!-- Import dependency management from Spring Boot -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.2.2.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${jedis.version}</version>
+            </dependency>
+
         </dependencies>
+
     </dependencyManagement>
 
     <build>
@@ -62,6 +75,10 @@
                         <delimiter>$</delimiter>
                     </delimiters>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
