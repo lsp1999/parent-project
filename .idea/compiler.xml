@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="user-module" />
-        <module name="redis-module" />
         <module name="eureka-server" />
+        <module name="redis-module" />
         <module name="zuul-gateway" />
       </profile>
     </annotationProcessing>

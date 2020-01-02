@@ -8,7 +8,16 @@ package com.demo.util;
  */
 public interface RedisService {
 
+
     boolean exists(String key);
+
+    /**
+     * 判断hmap里面具体某个字段是否存在
+     * @param h
+     * @param key
+     * @return
+     */
+    boolean hxists(String h, String key);
 
     /**
      * 存储数据

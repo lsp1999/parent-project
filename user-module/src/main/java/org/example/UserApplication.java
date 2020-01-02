@@ -20,7 +20,7 @@ public class UserApplication {
         SpringApplication.run(UserApplication.class, args);
     }
 
-    @GetMapping(value = "/name")
-    public String name(){return "liushupeng";}
+    @GetMapping(value = "user/name")
+    public String name(){return "u+liushupeng";}
 
 }

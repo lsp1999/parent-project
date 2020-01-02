@@ -19,11 +19,14 @@ public class RedisServiceImpl implements RedisService {
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
-    @Autowired
-    private RedisTemplate<String, String> redisTemplate;
 
     public boolean exists(String key) {
         return stringRedisTemplate.hasKey(key);
+    }
+
+    @Override
+    public boolean hxists(String h, String key) {
+        return stringRedisTemplate.opsForHash().hasKey(h, key);
     }
 
     public void set(String key, String value) {

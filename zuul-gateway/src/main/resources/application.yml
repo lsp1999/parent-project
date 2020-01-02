@@ -30,3 +30,9 @@ info:
   # $变量名$(该使用方式需依赖父项目的maven-resources-plugin插件)
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+
+zuul:
+  routes:
+    user-module:
+      path: /u/**
+      url: http://10.7.254.104:8002/user
