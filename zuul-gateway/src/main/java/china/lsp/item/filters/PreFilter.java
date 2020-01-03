@@ -1,4 +1,4 @@
-package org.example.filters;
+package china.lsp.item.filters;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
@@ -36,9 +36,7 @@ public class PreFilter extends ZuulFilter {
     public Object run() {
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
-
         log.info(String.format("%s request to %s", request.getMethod(), request.getRequestURL().toString()));
-
         return null;
     }
 

@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e491669-4a83-4577-90cd-57b0fe4b5f59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/org/example/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/china/lsp/item/EurekaServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-module/src/main/java/com/demo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-module/src/main/java/com/demo/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-module/src/main/java/com/demo/util/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-module/src/main/java/com/demo/util/RedisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-module/src/main/java/com/demo/util/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-module/src/main/java/com/demo/util/RedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-module/src/main/java/org/example/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-module/src/main/java/org/example/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-gateway/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway/src/main/java/org/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-module/src/main/java/com/demo/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-module/src/main/java/com/demo/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-module/src/main/java/com/demo/util/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-module/src/main/java/china/lsp/item/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-module/src/main/java/com/demo/util/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-module/src/main/java/china/lsp/item/service/RedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-module/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-module/src/main/java/org/example/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-module/src/main/java/china/lsp/item/UserServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-module/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-module/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway/src/main/java/china/lsp/item/ZuulServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/src/main/java/org/example/filters/PreFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway/src/main/java/china/lsp/item/filters/PreFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,7 +88,7 @@
       <recent name="D:\Code\springcloud\cloudDemo\parent-project\parent-project\redis-module\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="Spring Boot.UserServerApplication">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="redis-module" />
       <extension name="coverage">
@@ -107,6 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="china.lsp.item.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-server" />
       <extension name="coverage">
@@ -120,6 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-module" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="china.lsp.item.RedisServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="user-module" />
       <extension name="coverage">
@@ -129,6 +151,20 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-module" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="china.lsp.item.UserServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="china.lsp.item.ZuulServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,7 +209,8 @@
       <workItem from="1577324668660" duration="618000" />
       <workItem from="1577673211026" duration="15884000" />
       <workItem from="1577755426395" duration="4745000" />
-      <workItem from="1577929939110" duration="13863000" />
+      <workItem from="1577929939110" duration="14111000" />
+      <workItem from="1578014110818" duration="6815000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576808179033</created>
@@ -203,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577698647688</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1577958790573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577958790573</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,86 +275,86 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1577698567795" />
-    <state x="275" y="25" key="#Project_Structure" timestamp="1577674097385">
+    <state x="275" y="25" key="#Project_Structure" timestamp="1578017395274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1577674097385" />
+    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1578017395274" />
     <state x="544" y="233" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1577686778909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="544" y="233" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.728@0.0.1366.728" timestamp="1577686778909" />
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1577762626052">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1578018363278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577762626052" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578018363277" />
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577154902356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1577154902356" />
-    <state x="174" y="0" key="CommitChangelistDialog2" timestamp="1577958787177">
+    <state x="174" y="0" key="CommitChangelistDialog2" timestamp="1578039874516">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="174" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577958787177" />
+    <state x="174" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578039874516" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1577244308636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577244308636" />
-    <state x="508" y="278" width="373" height="172" key="Github.CreateGistDialog" timestamp="1576749627385">
+    <state x="508" y="278" width="373" height="181" key="Github.CreateGistDialog" timestamp="1578039885725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="508" y="278" width="373" height="172" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1576749627385" />
+    <state x="508" y="278" width="373" height="181" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1578039885725" />
     <state x="321" y="260" key="Github.ShareDialog" timestamp="1576809405815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="321" y="260" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1576809405815" />
-    <state width="1323" height="184" key="GridCell.Tab.0.bottom" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.0.bottom" timestamp="1578039896766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.0.center" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578039896766" />
+    <state width="1323" height="183" key="GridCell.Tab.0.center" timestamp="1578039896765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.0.left" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578039896765" />
+    <state width="1323" height="183" key="GridCell.Tab.0.left" timestamp="1578039896765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.0.right" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578039896765" />
+    <state width="1323" height="183" key="GridCell.Tab.0.right" timestamp="1578039896766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.1.bottom" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578039896766" />
+    <state width="1323" height="183" key="GridCell.Tab.1.bottom" timestamp="1578039896766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.1.center" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578039896766" />
+    <state width="1323" height="183" key="GridCell.Tab.1.center" timestamp="1578039896766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.1.left" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578039896766" />
+    <state width="1323" height="183" key="GridCell.Tab.1.left" timestamp="1578039896766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.1.right" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578039896766" />
+    <state width="1323" height="183" key="GridCell.Tab.1.right" timestamp="1578039896766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.2.bottom" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578039896766" />
+    <state width="1323" height="183" key="GridCell.Tab.2.bottom" timestamp="1578039896766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.2.center" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578039896766" />
+    <state width="1323" height="183" key="GridCell.Tab.2.center" timestamp="1578039896766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.2.left" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1578039896766" />
+    <state width="1323" height="183" key="GridCell.Tab.2.left" timestamp="1578039896766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
-    <state width="1323" height="184" key="GridCell.Tab.2.right" timestamp="1577958767817">
+    <state width="1323" height="183" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1578039896766" />
+    <state width="1323" height="183" key="GridCell.Tab.2.right" timestamp="1578039896766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1577958767817" />
+    <state width="1323" height="183" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1578039896766" />
     <state x="331" y="18" key="SettingsEditor" timestamp="1577686843340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -319,10 +363,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577698656481" />
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1577929940556">
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1578014115082">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577929940556" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578014115082" />
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577951920068">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -331,9 +375,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="38" y="111" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1577674077276" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1577954366208">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1578016952326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1577954366208" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1578016952326" />
   </component>
 </project>

@@ -1,9 +1,7 @@
-package com.demo.util;
+package china.lsp.item.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
@@ -24,9 +22,12 @@ public class RedisServiceImpl implements RedisService {
         return stringRedisTemplate.hasKey(key);
     }
 
-    @Override
     public boolean hxists(String h, String key) {
         return stringRedisTemplate.opsForHash().hasKey(h, key);
+    }
+
+    public Object hget(String hkey, String key) {
+        return stringRedisTemplate.opsForHash().get(hkey, key);
     }
 
     public void set(String key, String value) {

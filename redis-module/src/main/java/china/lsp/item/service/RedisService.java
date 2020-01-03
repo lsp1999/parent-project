@@ -1,4 +1,4 @@
-package com.demo.util;
+package china.lsp.item.service;
 
 /**
  * @date: 2019/12/30 17:16
@@ -13,11 +13,14 @@ public interface RedisService {
 
     /**
      * 判断hmap里面具体某个字段是否存在
+     *
      * @param h
      * @param key
      * @return
      */
     boolean hxists(String h, String key);
+
+    Object hget(String hkey, String key);
 
     /**
      * 存储数据

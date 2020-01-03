@@ -1,4 +1,4 @@
-package org.example;
+package china.lsp.item;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,13 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @SpringBootApplication
 @EnableEurekaClient
-@RestController
-public class UserApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(UserApplication.class, args);
-    }
+public class UserServerApplication {
 
-    @GetMapping(value = "user/name")
-    public String name(){return "u+liushupeng";}
+    public static void main(String[] args) {
+        SpringApplication.run(UserServerApplication.class, args);
+    }
 
 }
