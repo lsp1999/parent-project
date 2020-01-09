@@ -35,4 +35,4 @@ zuul:
   routes:
     user-module:
       path: /u/**
-      url: http://10.7.254.104:8002/rest/api/1/user
+      url: http://localhost:8002/rest/api/1/user
