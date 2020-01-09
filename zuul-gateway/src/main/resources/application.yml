@@ -9,14 +9,14 @@ spring:
   # 本地服务地址
   cloud:
     inetutils:
-      preferred-networks: 10.7.254.104
+      preferred-networks: localhost
 
 # eureka服务注册中心
 eureka:
   client:
     serviceUrl:
-      # 地址
-      defaultZone: http://10.7.254.104:8001/eureka/
+      # eureka服务地址
+      defaultZone: http://localhost:8001/eureka/
   instance:
     # 显示ip
     prefer-ip-address: true

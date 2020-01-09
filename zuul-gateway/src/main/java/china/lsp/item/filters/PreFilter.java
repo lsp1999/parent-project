@@ -8,10 +8,11 @@ import org.slf4j.LoggerFactory;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @date: 2020/1/2 14:30
- * @email: 3031353738@qq.com
- * @author: liushupeng
- * @description: filterType:pre在路由请求之前执行过滤器
+ * @Author: liushupeng
+ * @Email: 3031353738@qq.com
+ * @Date: 2020/1/8 16:05
+ * @Version: 1.0
+ * @Description: filterType:pre在路由请求之前执行过滤器
  */
 public class PreFilter extends ZuulFilter {
 

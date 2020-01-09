@@ -10,9 +10,11 @@
         <module name="eureka-server" />
         <module name="redis-module" />
         <module name="zuul-gateway" />
+        <module name="feign-module" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="feign-module" target="1.8" />
       <module name="user-8001" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @date: 2020/1/3 10:12
- * @email: 3031353738@qq.com
- * @author: liushupeng
- * @description:
+ * @Author: liushupeng
+ * @Email: 3031353738@qq.com
+ * @Date: 2020/1/8 16:05
+ * @Version: 1.0
+ * @Description: TODO
  */
 @RestController
 @RequestMapping(value = "/rest/api/1/user")

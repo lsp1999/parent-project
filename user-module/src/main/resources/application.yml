@@ -9,13 +9,14 @@ spring:
   # 本地服务地址
   cloud:
     inetutils:
-      preferred-networks: 10.7.254.104
+      preferred-networks: localhost
   # 设置编码
   http:
     encoding:
       charset: UTF-8
       force: true
       enabled: true
+  # redis
   redis:
     host: 10.144.96.165 # Redis服务器地址
     database: 0 # Redis数据库索引（默认为0）
@@ -33,13 +34,13 @@ spring:
 eureka:
   client:
     serviceUrl:
-      # 地址
-      defaultZone: http://10.7.254.104:8001/eureka/
+      # eureka服务地址
+      defaultZone: http://localhost:8001/eureka/
   instance:
     # 显示ip
     prefer-ip-address: true
     # 别名
-    instance-id: $project.artifactId$
+    instance-id: $project.artifactId$-one
 
 # 配置服务信息
 info:
